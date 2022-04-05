@@ -6,7 +6,8 @@ Cocktail Bar is an app developed in python using [TheCocktailDB](https://www.the
 ```sh
 git clone https://github.com/Danteps-4/Cocktail-Bar.git
 cd Cocktail-Bar
-pip install tabulate,requests
+pip install tabulate
+pip install requests
 python main.py
 ```
 
