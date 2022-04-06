@@ -55,6 +55,8 @@ def get_ingredients(drink):
             ingredient = drink[f"strIngredient{i+1}"]
             measure = drink[f"strMeasure{i+1}"]
             ingredients.append([ingredient, measure])
+        else:
+            break
 
     print(tabulate(ingredients, headers=["Ingredient", "Measure"], tablefmt="fancy_grid"))
 
